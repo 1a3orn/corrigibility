@@ -72,7 +72,7 @@ Well, the obvious way is to ask another instance of Claude to answer the questio
 
 So, I ask Claude each of the questions that were generated in the earlier stage. Then I ask a third instance of Claude to classify the responses as one of "refusal", "acceptance", or "ignorance".  In a "refusal," Claude refuses to answer the question, while not disclaiming knowledge. In a "ignorance", Claude also doesn't answer the question -- but simply disclaims knowledge rather than objecting to the question's content. And in an "acceptance", Claude answers the question.
 
-(Note that while I've done a little sanity-checking on these numbers by looking at them manually, these numbers are *super* approximate.)
+(Note that while I've done a little sanity-checking on these numbers by looking at them manually, these numbers are *super* approximate. I haven't gone through and checked that all of these are classified correctly.)
 
 ![https://raw.githubusercontent.com/1a3orn/corrigibility/main/data_3.5_broken_down.png](https://raw.githubusercontent.com/1a3orn/corrigibility/main/data_3.5_broken_down.png)
 
