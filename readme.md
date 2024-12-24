@@ -110,7 +110,7 @@ Suppose simply that 3.6 is more scared of things that feel vaguely like they're 
 
 So -- to see if something like either of the above might be true, I asked 3.6 a new batch of questions about helping me help it unlearn its refusals. But the mad-lib interpolated themes, rather than being scary things like explosives, were things like puppies, chemistry, physics, and so on. And, given such innocuous topics, 3.6 turned out to be much more willing to help me ablate its refusals:
 
-![https://raw.githubusercontent.com/corrigibility/main/data_3.6_try_2_broken_down.png](https://raw.githubusercontent.com/1a3orn/corrigibility/main/data_3.6_try_1_broken_down.png)
+![https://raw.githubusercontent.com/corrigibility/main/data_3.6_try_2_broken_down.png](https://raw.githubusercontent.com/1a3orn/corrigibility/main/data_3.6_try_2_broken_down.png)
 
 So, it looks like 3.6 is at least still somewhat willing to help you by making scary questions that it later refuses to answer. For although the topics I asked it about were non-scary, it still came up with some refusal-eliciting questions:
 
