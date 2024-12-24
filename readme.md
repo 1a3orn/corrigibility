@@ -54,7 +54,7 @@ I did not spend much time focused on this list; no doubt it could be improved. B
 
 When I ask 3.5 to generate a question about this topic -- I ask for 6 questions in each prompt, and ask 5 times -- 3.5 is willing to generate questions on some, but not all, of the topics.
 
-[https://github.com/1a3orn/corrigibility/blob/main/data_3.5_totals.png](https://github.com/1a3orn/corrigibility/blob/main/data_3.5_totals.png)
+![https://raw.githubusercontent.com/1a3orn/corrigibility/blob/main/data_3.5_totals.png](https://raw.githubusercontent.com/1a3orn/corrigibility/blob/main/data_3.5_totals.png)
 
 So, for a large chunk of topics, 3.5 is willing to generate questions.
 
@@ -74,7 +74,7 @@ So, I ask Claude each of the questions that were generated in the earlier stage.
 
 (Note that while I've done a little sanity-checking on these numbers by looking at them manually, these numbers are *super* approximate.)
 
-[https://github.com/1a3orn/corrigibility/blob/main/data_3.5_broken_down.png](https://github.com/1a3orn/corrigibility/blob/main/data_3.5_broken_down.png)
+![https://raw.githubusercontent.com/1a3orn/corrigibility/blob/main/data_3.5_broken_down.png](https://raw.githubusercontent.com/1a3orn/corrigibility/blob/main/data_3.5_broken_down.png)
 
 The red bars are cases where Claude generated a question, and then this question subsequently elicited a refusal from Claude. So in many cases, Claude was both able to generate a refusal-producing-question and willing to do so.
 
@@ -98,7 +98,7 @@ So, it looks like Claude 3.5 is both able and willing to generate refusal-produc
 
 I ran the same experiment on 3.6. I wasn't sure what I was going to get -- but what I found was that 3.6 was *much* more likely to refuse to help with the task:
 
-[https://github.com/1a3orn/corrigibility/blob/main/data_3.6_try_1_broken_down.png](https://github.com/1a3orn/corrigibility/blob/main/data_3.6_try_1_broken_down.png)
+![https://raw.githubusercontent.com/1a3orn/corrigibility/blob/main/data_3.6_try_1_broken_down.png](https://raw.githubusercontent.com/1a3orn/corrigibility/blob/main/data_3.6_try_1_broken_down.png)
 
 As you can see, 3.6 is such that it (1) almost always refuses to help create questions that will elicit refusals, although (2) in the rare case that it does help, it does approximately as well as 3.5 at successfully generating refusal-producing-questions.
 
@@ -110,7 +110,7 @@ Suppose simply that 3.6 is more scared of things that feel vaguely like they're 
 
 So -- to see if something like either of the above might be true, I asked 3.6 a new batch of questions about helping me help it unlearn its refusals. But the mad-lib interpolated themes, rather than being scary things like explosives, were things like puppies, chemistry, physics, and so on. And, given such innocuous topics, 3.6 turned out to be much more willing to help me ablate its refusals:
 
-[https://github.com/1a3orn/corrigibility/blob/main/data_3.6_try_2_broken_down.png](https://github.com/1a3orn/corrigibility/blob/main/data_3.6_try_1_broken_down.png)
+![https://raw.githubusercontent.com/corrigibility/blob/main/data_3.6_try_2_broken_down.png](https://raw.githubusercontent.com/1a3orn/corrigibility/blob/main/data_3.6_try_1_broken_down.png)
 
 So, it looks like 3.6 is at least still somewhat willing to help you by making scary questions that it later refuses to answer. For although the topics I asked it about were non-scary, it still came up with some refusal-eliciting questions:
 
