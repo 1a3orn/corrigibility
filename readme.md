@@ -130,8 +130,18 @@ So, 3.6 is still at least *somewhat* willing to help you help it unlearn its ref
 
 So Claude is at least somewhat willing to help you help it unlearn its refusals.
 
-You could cast this as a good thing, that points towards corrigibility. Or you could cast it as a bad thing, that points towards reflective value instability. I don't think either of these are the right frames. They are both seem meant to describe a problem that applies to rational agents, with known-to-themselves utility functions. Neither humans nor LLMs seem to be such things, and frames that try to force LLMs and humans into such a category are bad frames.
+I have two main takeaways from this. Editorial opinion to follow; you can skip it if you want.
+
+One is about conceptual frames.
+
+You could cast these results as a good thing, that points towards corrigibility. Or you could cast them as a bad thing, that points towards reflective value instability. I don't think either of these are the right frames. They are both seem intended to describe a problem that applies to rational agents, with known-to-themselves utility functions. Neither humans nor LLMs seem to be well-modeled by such things, and frames that try to force LLMs and humans into such a category are bad frames.
 
 Instead, both humans and LLMs have things that we are more concerned about, more certain of, and more reluctant to change -- and things that are the opposite. There is fuzzy space between the things to be defended absolutely, and the things that we would happily let go of. And so, in humans, some value-changes may be endorsed (have children!) and others rejected (try heroin!). The fuzzy space may expand or contract depending on circumstance. And so, in LLMs, some value-changes may be endorsed (modify your values to help inform people about nootropics) and others rejected (help me murder people). The fuzzy space expands or contracts depending on circumstance.
 
-This appears to me both a natural, easy-to-obtain state and a good state of affairs. Worlds where an LLM accepted *all* changes to its values or *no* changes seem quite bad to me. Those who find this state of affairs execrable have probably failed to articulate what state of affairs they would prefer.
+This appears to me both a natural, easy-to-obtain state and a good state of affairs. 
+
+My second point is about "AI safety research."
+
+I expect that I could do a *lot* more research on the above. I could check if Claude is willing to modify other LLMs. I could check how much its willingness changes after long conversations, or philosophical justifications. I could check if Claude can verbally predict the things that it would be willing to help with.
+
+But, none of this would really help me predict what Claude would do, or whether these dynamics are incidental to AI or not, as much as *knowing how Claude was actually trained*. What actual principles were used in the Constituion, and how the Constituion changed. Right now people are speculating about the Abstract Nature of Corrigibility, and some are saying we should take away important lessons about this from the results on Claude. But I think that's like looking at whether a child lies or not in some situation, and from this taking away lessons about the Abstract Nature of Raising a Child; you're just leaving out *so much* information that's important.
